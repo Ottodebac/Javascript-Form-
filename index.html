@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Feel Good Form</title>
+      <link rel="stylesheet" href="Styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,300;1,700;1,800&display=swap" rel="stylesheet">
+   </head>
+   <body>
+    <h1>Registration Form</h1>
+      <section id="Form"></section>
+      <form id="survery" method="post">
+         <fieldset id="fieldset 1">
+            <label for="name" id="name-label">Enter Name<input id="name" type="text" placeholder="Enter your Name" /></label>
+            <label for="email" id="email-label">Enter Email<input id="email" type="email" placeholder="Enter your Email" /></label>
+            <label for="dnd" id="dnd-label">Enter your DnD power level<input id="dnd" type="text" placeholder="Enter your power level" /></label>
+         </fieldset>
+         <fieldset id="fieldset 2">
+            <p>Would you recommend dating an Dark Elf warrior a friend?</p>
+            <label for="Yes">Yes<input class="inline" id="Yes" type="radio" value="value"/></label>
+            <label for="No">No<input class="inline" id="No" type="radio" value="value"/></label>            <label for="fav">
+               What is your favorite government type?
+               <select id="fav">
+                  <option value="">(Select an option)</option>
+                  <option value="1">Anarchy</option>
+                  <option value="2">Extreme Anarchy</option>
+                  <option value="3">Rainbow Anarchy</option>
+               </select>
+            </label>
+            <label for="textarea">
+              <textarea id="textarea" rows="3" cols="30" placeholder="Enter comments about the best full moon you've seen"></textarea>
+            </label>
+         </fieldset>
+      </form>
+      <button id="button">CLICK WHEN DONE</button>
+      <h2 id="Output"></h2>
+      </section>
+      <script src="index.js"></script>
+   </body>
+</html>
